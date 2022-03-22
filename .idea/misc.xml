@@ -6,11 +6,13 @@
         <entry key="..\:/Android Studio Project/FishFeeder/app/src/main/res/drawable/chart_full.xml" value="0.18" />
         <entry key="..\:/Android Studio Project/FishFeeder/app/src/main/res/drawable/chart_progress.xml" value="0.2075" />
         <entry key="..\:/Android Studio Project/FishFeeder/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Android Studio Project/FishFeeder/app/src/main/res/layout/fragment_about_app.xml" value="0.17074275362318841" />
         <entry key="..\:/Android Studio Project/FishFeeder/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Android Studio Project/FishFeeder/app/src/main/res/layout/fragment_kekeruhan.xml" value="0.33" />
         <entry key="..\:/Android Studio Project/FishFeeder/app/src/main/res/layout/fragment_pakan.xml" value="0.25" />
         <entry key="..\:/Android Studio Project/FishFeeder/app/src/main/res/layout/fragment_tentang.xml" value="0.25" />
         <entry key="..\:/Android Studio Project/FishFeeder/app/src/main/res/menu/bottom_menu.xml" value="0.2" />
+        <entry key="..\:/Android Studio Project/FishFeeder/app/src/main/res/menu/overflow_menu.xml" value="0.2" />
       </map>
     </option>
   </component>
