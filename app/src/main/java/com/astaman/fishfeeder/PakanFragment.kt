@@ -17,13 +17,15 @@ class PakanFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
+        return inflater.inflate(R.layout.fragment_pakan,container,false)
+
         //mengatur saat tombol next ditekan
-        val binding: FragmentPakanBinding = DataBindingUtil.inflate(
+        /*val binding: FragmentPakanBinding = DataBindingUtil.inflate(
             inflater, R.layout.fragment_pakan, container, false)
         binding.nextBtn.setOnClickListener (
             Navigation.createNavigateOnClickListener(R.id.action_pakanFragment_to_kekeruhanFragment)
         )
 
-        return binding.root
+        return binding.root*/
     }
 }

@@ -16,16 +16,17 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        return inflater.inflate(R.layout.fragment_home,container,false)
 
         //untuk mengatur tujuan saat tombol mulai diklik
-        val binding: FragmentHomeBinding = DataBindingUtil.inflate(
-            inflater, R.layout.fragment_home, container, false)
-        binding.startBtn.setOnClickListener (
+        //val binding: FragmentHomeBinding = DataBindingUtil.inflate(
+           // inflater, R.layout.fragment_home, container, false)
+        /*binding.startBtn.setOnClickListener (
             Navigation.createNavigateOnClickListener(R.id.action_homeFragment_to_pakanFragment)
         )
         setHasOptionsMenu(true)
 
-        return binding.root
+        return binding.root*/
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
