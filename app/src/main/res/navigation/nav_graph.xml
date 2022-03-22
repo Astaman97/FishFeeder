@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
 
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.astaman.fishfeeder.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_pakanFragment"
+            app:destination="@id/pakanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pakanFragment"
+        android:name="com.astaman.fishfeeder.PakanFragment"
+        android:label="fragment_pakan"
+        tools:layout="@layout/fragment_pakan" >
+        <action
+            android:id="@+id/action_pakanFragment_to_kekeruhanFragment"
+            app:destination="@id/kekeruhanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kekeruhanFragment"
+        android:name="com.astaman.fishfeeder.KekeruhanFragment"
+        android:label="fragment_kekeruhan"
+        tools:layout="@layout/fragment_kekeruhan" >
+        <action
+            android:id="@+id/action_kekeruhanFragment_to_tentangFragment"
+            app:destination="@id/tentangFragment"
+            app:popUpTo="@id/kekeruhanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tentangFragment"
+        android:name="com.astaman.fishfeeder.TentangFragment"
+        android:label="fragment_tentang"
+        tools:layout="@layout/fragment_tentang" />
 </navigation>
